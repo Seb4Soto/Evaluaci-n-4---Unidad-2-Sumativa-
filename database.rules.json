@@ -1,0 +1,30 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+
+    "usuarios": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": "auth != null && auth.uid === $uid",
+        ".validate": "newData.hasChildren(['rut','nombre','apellido','correo','cargo'])"
+      }
+    },
+
+    "circuito": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "estado": {
+        ".validate": "newData.isBoolean()"
+      }
+    },
+
+    "acciones": {
+      ".read": "auth != null",
+      "$id": {
+        ".write": "auth != null && !data.exists()",
+        ".validate": "newData.hasChildren(['uid','fecha','hora','usuario','accion','dist']) && newData.child('uid').val() === auth.uid && (newData.child('accion').val() === 'Activar' || newData.child('accion').val() === 'Desactivar') && newData.child('dist').isNumber()"
+      }
+    }
+  }
+}

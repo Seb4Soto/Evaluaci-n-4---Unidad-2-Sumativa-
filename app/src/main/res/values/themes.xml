@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App1_Firebase" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_boton</item>
+        <item name="colorAccent">@color/color_boton</item>
+        <item name="android:windowBackground">@drawable/fondo_app</item>
+        <item name="android:textColor">@color/color_texto</item>
+        <item name="android:statusBarColor">@color/color_fondo</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

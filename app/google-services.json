@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "967381142346",
+    "firebase_url": "https://appfirebase-8c487-default-rtdb.firebaseio.com",
+    "project_id": "appfirebase-8c487",
+    "storage_bucket": "appfirebase-8c487.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967381142346:android:81a3219be8c99de0e60fb3",
+        "android_client_info": {
+          "package_name": "cl.inacap.app1_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMWlwPF-TtxPxuKIl4oN6CQ5WZTkPBrAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

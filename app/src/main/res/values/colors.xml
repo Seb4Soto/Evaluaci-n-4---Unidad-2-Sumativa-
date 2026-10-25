@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== CAMBIA AQUÍ LOS COLORES DE TODA LA APP ===== -->
+    <color name="color_fondo">#FFFFFF</color>            <!-- fondo de las pantallas -->
+    <color name="color_titulo_usuario">#000099</color>   <!-- "Nombre Usuario" (azul) -->
+    <color name="color_texto">#000000</color>            <!-- textos generales -->
+    <color name="color_boton">#000000</color>            <!-- botones negros -->
+    <color name="color_boton_texto">#FFFFFF</color>      <!-- texto de los botones -->
+    <color name="color_boton_volver">#AA0000</color>     <!-- Volver / Cerrar Sesión -->
+    <color name="color_borde">#000000</color>            <!-- bordes de campos y tarjetas -->
+    <color name="color_campo_fondo">#FFFFFF</color>      <!-- fondo de los campos de texto -->
+    <color name="color_circulo_1">#F5F5F5</color>        <!-- botones circulares On/Off (claro) -->
+    <color name="color_circulo_2">#C8C8C8</color>        <!-- botones circulares On/Off (oscuro) -->
+    <color name="color_subtitulo">#9E9E9E</color>        <!-- subtítulos (Menú, Ver Perfil, etc.) -->
+</resources>

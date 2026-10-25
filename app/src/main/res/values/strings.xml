@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App1_Firebase</string>
+
+    <string-array name="cargos">
+        <item>Cargo</item>
+        <item>Operador</item>
+        <item>Técnico</item>
+        <item>Supervisor</item>
+        <item>Administrador</item>
+    </string-array>
+</resources>

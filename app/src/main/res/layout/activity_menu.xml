@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomenu1"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvusumenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nombre Usuario"
+            android:textColor="@color/color_boton_texto"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvtitmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Menú"
+            android:textColor="@color/color_subtitulo"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_boton"
+            android:text="Manipular Circuito"
+            android:textAllCaps="false"
+            android:textColor="@color/color_boton_texto"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_boton"
+            android:text="Ver Acciones Realizadas"
+            android:textAllCaps="false"
+            android:textColor="@color/color_boton_texto"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_boton"
+            android:text="Ver Estadísticas"
+            android:textAllCaps="false"
+            android:textColor="@color/color_boton_texto"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_boton"
+            android:text="Ver Perfil"
+            android:textAllCaps="false"
+            android:textColor="@color/color_boton_texto"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_boton_rojo"
+            android:text="Cerrar Sesión"
+            android:textAllCaps="false"
+            android:textColor="@color/color_boton_texto"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

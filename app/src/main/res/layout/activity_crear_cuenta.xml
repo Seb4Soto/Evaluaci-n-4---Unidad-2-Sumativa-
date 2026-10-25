@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomenu1"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvtitcrear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="Crear Cuenta"
+            android:textColor="@color/color_boton_texto"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtrut"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/color_boton_texto"
+            android:hint="Rut"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/color_texto"
+            android:textColorHint="#777777"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtnombre"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:background="@color/color_boton_texto"
+                android:hint="Nombre"
+                android:inputType="textPersonName|textCapWords"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textAlignment="center"
+                android:textColor="@color/color_texto"
+                android:textColorHint="#777777"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/txtapellido"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@color/color_boton_texto"
+                android:hint="Apellido"
+                android:inputType="textPersonName|textCapWords"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textAlignment="center"
+                android:textColor="@color/color_texto"
+                android:textColorHint="#777777"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtcorreo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/color_boton_texto"
+            android:hint="Correo Electrónico"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/color_texto"
+            android:textColorHint="#777777"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/spcargo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/color_boton_texto"
+            android:entries="@array/cargos"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/txtcon"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/color_boton_texto"
+            android:hint="Contraseña (mín. 6 caracteres)"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/color_texto"
+            android:textColorHint="#777777"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/txtcon2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/color_boton_texto"
+            android:hint="Repetir Contraseña"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/color_texto"
+            android:textColorHint="#777777"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnregistrar"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_boton"
+                android:text="Registrar"
+                android:textAllCaps="false"
+                android:textColor="@color/color_boton_texto"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnvolcrear"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_boton_rojo"
+                android:text="Volver"
+                android:textAllCaps="false"
+                android:textColor="@color/color_boton_texto"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

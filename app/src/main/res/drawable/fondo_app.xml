@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FONDO DE TODAS LAS PANTALLAS (color sólido).
+     Para usar una imagen (ej: fondo.jpg en res/drawable), reemplaza TODO este archivo por:
+
+     <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+         android:src="@drawable/fondo"
+         android:gravity="fill" />
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/color_fondo" />
+</shape>
